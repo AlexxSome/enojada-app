@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import {Route, Routes} from "react-router-dom";
+import Home from "./components/home/Home";
+import Response from "./components/response/Response";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1>Welcome to Enojada-App</h1>
+         <Routes>
+            <Route index path='/home' element={<Home />} />
+            <Route path='/response' element={<Response />} />
+         </Routes>
     </div>
   );
 }
