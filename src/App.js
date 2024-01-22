@@ -8,9 +8,9 @@ function App() {
     <div className="App">
         <h1>Welcome to Enojada-App</h1>
          <Routes>
-            <Route index path='/home' element={<Home />} />
-            <Route path='/response' element={<Response />} />
-             <Route path="*" element={<Navigate to="/home" replace={true} />}
+             <Route path='/enojada-app' element={<Home />} />
+             <Route path='/enojada-app/home' element={<Home />} />
+            <Route path='/enojada-app/response' element={<Response />} />
              />
          </Routes>
     </div>

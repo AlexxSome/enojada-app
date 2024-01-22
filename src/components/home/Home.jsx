@@ -23,7 +23,7 @@ const Home = () => {
                         onMouseOver={moveBtn}>
                     Si
                 </Button>
-                <Button variant='contained' href='/response'>
+                <Button variant='contained' href='/enojada-app/response'>
                     No
                 </Button>
             </Grid>
