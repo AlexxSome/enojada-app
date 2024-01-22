@@ -8,9 +8,8 @@ function App() {
   return (
     <div className="App">
         <h1>Welcome to Enojada-App</h1>
+        <Home />
          <Routes>
-             <Route path='/enojada-app' element={<Home />} />
-             <Route path='/enojada-app/home' element={<Home />} />
              <Route path='/enojada-app/response' element={<Response />} />
              />
          </Routes>
