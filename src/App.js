@@ -10,7 +10,7 @@ function App() {
          <Routes>
              <Route path='/enojada-app' element={<Home />} />
              <Route path='/enojada-app/home' element={<Home />} />
-            <Route path='/enojada-app/response' element={<Response />} />
+             <Route path='/enojada-app/response' element={<Response />} />
              />
          </Routes>
     </div>
