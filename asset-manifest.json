@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/enojada-app/static/css/main.3da2ca94.css",
-    "main.js": "/enojada-app/static/js/main.0cc8befc.js",
+    "main.css": "/enojada-app/static/css/main.4b38950f.css",
+    "main.js": "/enojada-app/static/js/main.95134ab4.js",
     "static/js/787.58b6444e.chunk.js": "/enojada-app/static/js/787.58b6444e.chunk.js",
     "index.html": "/enojada-app/index.html",
-    "main.3da2ca94.css.map": "/enojada-app/static/css/main.3da2ca94.css.map",
-    "main.0cc8befc.js.map": "/enojada-app/static/js/main.0cc8befc.js.map",
+    "main.4b38950f.css.map": "/enojada-app/static/css/main.4b38950f.css.map",
+    "main.95134ab4.js.map": "/enojada-app/static/js/main.95134ab4.js.map",
     "787.58b6444e.chunk.js.map": "/enojada-app/static/js/787.58b6444e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3da2ca94.css",
-    "static/js/main.0cc8befc.js"
+    "static/css/main.4b38950f.css",
+    "static/js/main.95134ab4.js"
   ]
 }
