@@ -9,7 +9,7 @@ const Response = () => {
             <Container>
                 <Card>
                     <CardActionArea className='cardContainer'>
-                        <CardMedia component='img' alt='we' image='/images/we-christmas.jpg' style={{width:'40%'}}/>
+                        <CardMedia component='img' alt='we' image='%PUBLIC_URL%/images/we-christmas.jpg' style={{width:'40%'}}/>
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">
                                 For You

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Button, Grid} from "@mui/material";
 
 const Home = () => {
-    const [position, setPosition] = useState({ left: 0, top: 0 });
+    const [position, setPosition] = useState({ left: 250, top: 250 });
 
     const moveBtn = () => {
         const container = document.getElementById('container');

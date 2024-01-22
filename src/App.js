@@ -1,5 +1,5 @@
 import './App.css';
-import {Route, Routes} from "react-router-dom";
+import {Navigate, Route, Routes} from "react-router-dom";
 import Home from "./components/home/Home";
 import Response from "./components/response/Response";
 
@@ -10,6 +10,8 @@ function App() {
          <Routes>
             <Route index path='/home' element={<Home />} />
             <Route path='/response' element={<Response />} />
+             <Route path="*" element={<Navigate to="/home" replace={true} />}
+             />
          </Routes>
     </div>
   );
